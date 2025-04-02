@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Game/Scenes/Game.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/OuterLevel.unity
+    guid: 7315cc54daf0c9444b9ab9d6749d00ff
+  - enabled: 1
+    path: Assets/Scenes/BarLevel.unity
+    guid: 94b202e3414a05c4eb56eef222969c12
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 99e9a63909788ba4594812dc5dba14a9, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 31bfb7da474d0d7438307c136c68063d, type: 2}
