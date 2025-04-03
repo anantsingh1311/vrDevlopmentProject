@@ -1,0 +1,34 @@
+{
+    "name": "Test",
+    "maps": [
+        {
+            "name": "main",
+            "id": "c532a511-de01-4e7d-97ba-05e5d0ff1999",
+            "actions": [
+                {
+                    "name": "DestroyCamera",
+                    "type": "Button",
+                    "id": "9973eca3-0bee-442a-8d7b-a8767cad9c3f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d1dfcbd2-a7de-4adc-aaa2-cd4218661401",
+                    "path": "<Keyboard>/h",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DestroyCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
