@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8152626649830985782}
   - component: {fileID: 6289697543591221992}
-  - component: {fileID: 7184458038172627695}
   - component: {fileID: 5213975540258234712}
+  - component: {fileID: 1493435593189407014}
   m_Layer: 0
   m_Name: GrabInteraction
   m_TagString: Untagged
@@ -124,8 +124,21 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
---- !u!65 &7184458038172627695
-BoxCollider:
+--- !u!114 &5213975540258234712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366582814115343637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3098611d384b8d040ab0e545f95f187a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabInteractor: {fileID: 6289697543591221992}
+--- !u!135 &1493435593189407014
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -143,21 +156,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.06, y: 0.08, z: 0.15}
-  m_Center: {x: 0, y: 0.01, z: 0}
---- !u!114 &5213975540258234712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366582814115343637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3098611d384b8d040ab0e545f95f187a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grabInteractor: {fileID: 6289697543591221992}
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1378491663547980669
 GameObject:
   m_ObjectHideFlags: 0

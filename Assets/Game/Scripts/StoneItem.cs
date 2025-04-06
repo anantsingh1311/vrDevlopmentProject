@@ -2,7 +2,14 @@ using UnityEngine;
 
 public class StoneItem : MonoBehaviour, IHighlightable
 {
-    [SerializeField] Material material;
+    [SerializeField] MeshRenderer itemRenderer;
+    Material material;
+
+    private void Awake()
+    {
+        material = new Material(itemRenderer.material);
+        itemRenderer.material = material;
+    }
 
     public void DeHighlight()
     {
