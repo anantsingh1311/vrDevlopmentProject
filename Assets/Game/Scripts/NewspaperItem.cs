@@ -1,11 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewspaperItem : MonoBehaviour, IHighlightable
+public class NewspaperItem : MonoBehaviour, IHighlightable, IInventory
 {
     [SerializeField] Material material;
     [SerializeField] Collider itemCollider;
+
+    public event Action Added;
 
     public void DeHighlight()
     {

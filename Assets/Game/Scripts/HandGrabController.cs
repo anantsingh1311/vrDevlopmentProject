@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,15 @@ public class HandGrabController : MonoBehaviour
     {
         grabInteractor.hoverEntered.AddListener(OnHovered);
         grabInteractor.hoverExited.AddListener(OnHandHoverExit);
+        grabInteractor.selectExited.AddListener(OnReleased);
+    }
+
+    private void OnReleased(SelectExitEventArgs item)
+    {
+        Component itemComponent = (item.interactableObject as Component);
+
+        if (itemComponent.TryGetComponent(out IInventory inventory))
+            GameStateManager.Instance.AddItem(inventory);
     }
 
     void OnHovered(HoverEnterEventArgs e)
