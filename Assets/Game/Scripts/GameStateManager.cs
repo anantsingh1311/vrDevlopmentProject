@@ -10,6 +10,7 @@ public class GameStateManager : MonoBehaviour
 
     List<IInventory> items = new();
     public bool EnteredBar { get; set; }
+    public bool BasementUnlocked { get; set; }
 
     private void Awake()
     {
