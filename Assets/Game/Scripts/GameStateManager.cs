@@ -9,17 +9,19 @@ public class GameStateManager : MonoBehaviour
     bool[] objectives;
 
     List<IInventory> items = new();
+    public bool EnteredBar { get; set; }
 
     private void Awake()
     {
+        if(Instance != null)
+        {
+            DestroyImmediate(gameObject);
+            return;
+        }
+
         Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
-
-    private void OnDestroy()
-    {
-        Instance = null;
-    }
-
 
     public void AddItem(IInventory item)
     {
