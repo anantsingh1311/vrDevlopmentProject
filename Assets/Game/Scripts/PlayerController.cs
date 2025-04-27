@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         ChangeMode();
-        modeButton.action.performed += Action_performed;
+        //modeButton.action.performed += Action_performed;
     }
 
     private void Action_performed(InputAction.CallbackContext obj)

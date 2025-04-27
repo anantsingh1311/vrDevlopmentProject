@@ -3,12 +3,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewspaperItem : MonoBehaviour, IHighlightable, IInventory
+public class NewspaperItem : MonoBehaviour, IHighlightable
 {
-    [SerializeField] Material material;
+    [SerializeField] MeshRenderer itemRenderer;
+    Material material;
+
     [SerializeField] Collider itemCollider;
+    [SerializeField] Canvas infoCanvas;
 
     public event Action Added;
+
+    private void Awake()
+    {
+        material = new Material(itemRenderer.material);
+        itemRenderer.material = material;
+        infoCanvas.worldCamera = Camera.main;
+        infoCanvas.gameObject.SetActive(false);
+    }
 
     public void DeHighlight()
     {
@@ -18,5 +29,10 @@ public class NewspaperItem : MonoBehaviour, IHighlightable, IInventory
     public void Highlight()
     {
         material.SetFloat("_Outline", 0.4f);
+    }
+
+    public void OnGrabbed()
+    {
+        infoCanvas.gameObject.SetActive(true);
     }
 }
