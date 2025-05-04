@@ -1,0 +1,45 @@
+{
+    "name": "GameInputs",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "8e4fb6df-f329-4e26-b520-cab271a9a89e",
+            "actions": [
+                {
+                    "name": "RightHand/Menu",
+                    "type": "Button",
+                    "id": "dac48719-392b-44a8-a31f-264d0fd80347",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "03fb3b04-6dc5-43c7-a60f-eaecc03e5b66",
+                    "path": "<Keyboard>/#(P)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHand/Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cf4706ca-528f-4e4b-bad7-e4a4f98f73e1",
+                    "path": "<XRController>{RightHand}/{MenuButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHand/Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

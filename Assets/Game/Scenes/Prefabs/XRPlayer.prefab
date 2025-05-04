@@ -1550,6 +1550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ActionAssets:
   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - {fileID: -944628639613478452, guid: 407d0e2f12a847745b6ab152d12f8e51, type: 3}
 --- !u!1 &4490486406071930734
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,4 +2620,4 @@ MonoBehaviour:
   teleportInteractor: {fileID: 2537013258502427395}
   grabInteractor: {fileID: 1366582814115343637}
   menuObject: {fileID: 6136749589794954580}
-  modeButton: {fileID: 3279264004350380116, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  modeButton: {fileID: -6366043024915871354, guid: 407d0e2f12a847745b6ab152d12f8e51, type: 3}
