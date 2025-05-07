@@ -6,9 +6,9 @@ public class GameStateManager : MonoBehaviour
 {
     public static GameStateManager Instance { get; private set; }
 
-    bool[] objectives;
+    public bool[] objectives;
 
-    List<IInventory> items = new();
+    public List<IInventory> items = new();
     public bool EnteredBar { get; set; }
     public bool BasementUnlocked { get; set; }
 

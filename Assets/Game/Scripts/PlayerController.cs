@@ -8,9 +8,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject rayInteractor;
     [SerializeField] GameObject teleportInteractor;
     [SerializeField] GameObject grabInteractor;
-    [SerializeField] GameObject menuObject;
+    [SerializeField] GameMenuManager menuObject;
 
     [SerializeField] InputActionReference modeButton;
+    [SerializeField] Transform camTransform;
 
     int currentMode = -1;
 
@@ -18,6 +19,7 @@ public class PlayerController : MonoBehaviour
     {
         ChangeMode();
         modeButton.action.performed += Action_performed;
+        camTransform.position = new(0, camTransform.position.y, 0);
     }
 
     private void Action_performed(InputAction.CallbackContext obj)
@@ -35,13 +37,13 @@ public class PlayerController : MonoBehaviour
                 teleportInteractor.SetActive(true);
                 grabInteractor.SetActive(true);
                 rayInteractor.SetActive(false);
-                menuObject.SetActive(false);
+                menuObject.CloseMenu();
                 break;
             case 1:
                 teleportInteractor.SetActive(false);
                 grabInteractor.SetActive(false);
                 rayInteractor.SetActive(true);
-                menuObject.SetActive(true);
+                menuObject.OpenMenu();
                 break;
         }
     }

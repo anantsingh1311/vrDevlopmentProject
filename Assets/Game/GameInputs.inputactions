@@ -30,7 +30,7 @@
                 {
                     "name": "",
                     "id": "cf4706ca-528f-4e4b-bad7-e4a4f98f73e1",
-                    "path": "<XRController>{RightHand}/{MenuButton}",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

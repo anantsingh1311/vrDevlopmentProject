@@ -1,14 +1,13 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LeafletItem : MonoBehaviour, IHighlightable, IInventory
 {
     [SerializeField] MeshRenderer itemRenderer;
     Material material;
-
     [SerializeField] Collider itemCollider;
+
+    public int Index { get; private set; } = 1;
 
     public event Action Added;
 

@@ -1,15 +1,15 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class NewspaperItem : MonoBehaviour, IHighlightable
+public class NewspaperItem : MonoBehaviour, IHighlightable, IInventory
 {
     [SerializeField] MeshRenderer itemRenderer;
     Material material;
 
     [SerializeField] Collider itemCollider;
     [SerializeField] Canvas infoCanvas;
+
+    public int Index { get; private set; } = 0;
 
     public event Action Added;
 

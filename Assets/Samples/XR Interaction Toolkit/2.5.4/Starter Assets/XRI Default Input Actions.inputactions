@@ -1163,6 +1163,17 @@
                     "action": "Pinch",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cf996fda-4945-4cd9-80ec-f1b554bfa16a",
+                    "path": "<XRController>{RightHand}/Primary2DAxis",
+                    "interactions": "Sector(directions=1,sweepBehavior=1)",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
