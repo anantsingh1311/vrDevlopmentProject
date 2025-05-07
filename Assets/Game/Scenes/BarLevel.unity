@@ -2576,7 +2576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 126078386}
   m_Layer: 0
-  m_Name: ComputerDesk (2)
+  m_Name: ComputerDesk(6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2591,9 +2591,9 @@ Transform:
   m_GameObject: {fileID: 126078385}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.76, y: 0.11, z: 19.81}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 2.45, y: 2.47, z: 47.39}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1636808707}
   - {fileID: 110249137}
@@ -6398,7 +6398,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &299789570
 Transform:
   m_ObjectHideFlags: 0
@@ -8673,7 +8673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 402961391}
   m_Layer: 0
-  m_Name: ComputerDesk (4)
+  m_Name: ComputerDesk(2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8688,9 +8688,9 @@ Transform:
   m_GameObject: {fileID: 402961390}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -73.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 2.43, y: 2.47, z: -61.1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1654903991}
   - {fileID: 1668992240}
@@ -12361,7 +12361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211543161590813815, guid: d5f927682928f9f4c89f2b971e51f3d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 182.81218
+      value: 160.2
       objectReference: {fileID: 0}
     - target: {fileID: 5211543161590813815, guid: d5f927682928f9f4c89f2b971e51f3d8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14610,11 +14610,11 @@ Transform:
   - {fileID: 1347898780}
   - {fileID: 629744715}
   - {fileID: 81015957}
-  - {fileID: 1370508767}
-  - {fileID: 832912877}
-  - {fileID: 402961391}
   - {fileID: 1434330253}
+  - {fileID: 402961391}
   - {fileID: 1750006881}
+  - {fileID: 832912877}
+  - {fileID: 1370508767}
   - {fileID: 126078386}
   - {fileID: 1253345417}
   - {fileID: 299789570}
@@ -16720,7 +16720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 832912877}
   m_Layer: 0
-  m_Name: ComputerDesk (1)
+  m_Name: ComputerDesk(4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16735,9 +16735,9 @@ Transform:
   m_GameObject: {fileID: 832912876}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -27.09}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 2.4, y: 2.47, z: -5}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 114690254}
   - {fileID: 713879242}
@@ -21816,7 +21816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211543161590813815, guid: d5f927682928f9f4c89f2b971e51f3d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 221.29149
+      value: 212.7
       objectReference: {fileID: 0}
     - target: {fileID: 5211543161590813815, guid: d5f927682928f9f4c89f2b971e51f3d8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26387,7 +26387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1253345417
 Transform:
   m_ObjectHideFlags: 0
@@ -28576,7 +28576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1370508767}
   m_Layer: 0
-  m_Name: ComputerDesk
+  m_Name: ComputerDesk(5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28591,9 +28591,9 @@ Transform:
   m_GameObject: {fileID: 1370508766}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 2.4, y: 2.47, z: 21.6}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 593487256}
   - {fileID: 1529348249}
@@ -29965,7 +29965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1434330253}
   m_Layer: 0
-  m_Name: ComputerDesk (6)
+  m_Name: ComputerDesk(1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29980,9 +29980,9 @@ Transform:
   m_GameObject: {fileID: 1434330252}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -88.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 2.43, y: 2.47, z: -88.3}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1929419847}
   - {fileID: 761159916}
@@ -30616,7 +30616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211543161590813815, guid: d5f927682928f9f4c89f2b971e51f3d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 95.791504
+      value: 103.3
       objectReference: {fileID: 0}
     - target: {fileID: 5211543161590813815, guid: d5f927682928f9f4c89f2b971e51f3d8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -36281,7 +36281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1750006881}
   m_Layer: 0
-  m_Name: ComputerDesk (5)
+  m_Name: ComputerDesk(3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36296,9 +36296,9 @@ Transform:
   m_GameObject: {fileID: 1750006880}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -48.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 2.5, y: 2.47, z: -31.2}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 286700978}
   - {fileID: 1996833471}
@@ -37886,7 +37886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211543161590813815, guid: d5f927682928f9f4c89f2b971e51f3d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 137.59149
+      value: 141.3
       objectReference: {fileID: 0}
     - target: {fileID: 5211543161590813815, guid: d5f927682928f9f4c89f2b971e51f3d8, type: 3}
       propertyPath: m_LocalRotation.w
